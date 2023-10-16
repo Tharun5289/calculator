@@ -1,0 +1,61 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#maindiv{
+    height : 500px;
+    width : 520px;
+    margin : 0 auto;
+    margin-top:5px;
+}
+
+#input{
+    width : 370px;
+    height : 98px;
+    background-color: rgb(227, 195, 137);
+    padding-left: 20px;
+    font-size : 40px;
+    display : flex;
+    align-items : center;
+    border: 1px solid black;
+}
+
+button{
+    height : 100px;
+    width : 130px; 
+    font-size: 25px;
+    border: 1px solid black;
+}
+
+#div1{
+    display : flex;
+}
+
+#div2{
+   font-size : 0px; 
+}
+
+.num{
+    background-color: aqua; 
+}
+
+.symbol{
+    background-color: grey;
+}
+
+#clear{
+    background-color: rgb(240, 143, 32);;
+}
+
+.num:hover{
+    background-color: rgb(39, 161, 161);
+}
+
+.symbol:hover{
+    background-color: rgb(101, 84, 84);
+}
+
+#clear:hover{
+    background-color:  rgb(120, 75, 23);
+}
